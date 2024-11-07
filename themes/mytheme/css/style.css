@@ -26,9 +26,15 @@ body {
 
 .main {
     flex: 1 0 auto;
-    padding: 1em;
-    max-width: 70%;
+    padding: 2em;
+    max-width: 60%;
     margin: auto;
+}
+
+.image {
+    float: left;
+    margin-right: 15px;
+    max-width: 30%;
 }
 
 .header, .footer {
@@ -64,6 +70,9 @@ body {
     }
     .logo {
         max-width: 30%;
+    }
+    .main {
+        max-width: 90%;
     }
 }
 
