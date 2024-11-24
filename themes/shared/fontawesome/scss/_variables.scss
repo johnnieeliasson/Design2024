@@ -1,10 +1,13 @@
+// Import the string module
+@use "sass:string"; // Add this line at the top
+
 // Variables
 // --------------------------
 
 $fa-font-path: "../webfonts" !default;
 $fa-font-size-base: 16px !default;
 $fa-font-display: block !default;
-$fa-css-prefix: fa !default;
+$fa-css-prefix: 'fa' !default;
 $fa-version: "5.15.4" !default;
 $fa-border-color: #eee !default;
 $fa-inverse: #fff !default;
@@ -17,7 +20,7 @@ $fa-secondary-opacity: .4 !default;
 
 // Convenience function used to set content property
 @function fa-content($fa-var) {
-  @return unquote("\"#{ $fa-var }\"");
+  @return string.unquote("\"#{ $fa-var }\""); // Updated to use string.unquote
 }
 
 $fa-var-500px: \f26e;

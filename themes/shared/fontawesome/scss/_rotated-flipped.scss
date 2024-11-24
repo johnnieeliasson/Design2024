@@ -1,3 +1,8 @@
+// Define the variable for Font Awesome CSS prefix
+$fa-css-prefix: 'fa'; // Adjust the value as needed
+
+@use 'mixins' as *;
+  
 // Rotated & Flipped Icons
 // -------------------------
 

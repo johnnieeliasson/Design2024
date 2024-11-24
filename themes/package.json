@@ -8,8 +8,8 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-  "style": "sass mysasstheme/scss/style.scss mysasstheme/css/style.css --no-source-map",
-  "style-min": "sass mysasstheme/scss/style.scss mysasstheme/css/style.min.css --no-source-map --style compressed"
+    "style": "sass mysasstheme/scss/style.scss mysasstheme/css/style.css --no-source-map",
+    "style-min": "sass mysasstheme/scss/style.scss mysasstheme/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

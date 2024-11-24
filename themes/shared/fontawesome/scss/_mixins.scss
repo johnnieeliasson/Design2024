@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 // Mixins
 // --------------------------
 
@@ -13,14 +15,13 @@
 
 @mixin fa-icon-rotate($degrees, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
   transform: rotate($degrees);
 }
-
 @mixin fa-icon-flip($horiz, $vert, $rotation) {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1);
   transform: scale($horiz, $vert);
 }
-
 
 // Only display content to screen readers. A la Bootstrap 4.
 //

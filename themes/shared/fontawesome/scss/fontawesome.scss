@@ -2,15 +2,15 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import 'variables';
-@import 'mixins';
-@import 'core';
-@import 'larger';
-@import 'fixed-width';
-@import 'list';
-@import 'bordered-pulled';
-@import 'animated';
-@import 'rotated-flipped';
-@import 'stacked';
-@import 'icons';
-@import 'screen-reader';
+@use '_variables' as *;
+@use '_mixins' as *;
+@use '_core' as *;
+@use '_larger' as *;
+@use '_fixed-width' as *;
+@use '_list' as *;
+@use '_bordered-pulled' as *;
+@use '_animated' as *;
+@use '_rotated-flipped' as *;
+@use '_stacked' as *;
+@use '_icons' as *;
+@use '_screen-reader' as *;
