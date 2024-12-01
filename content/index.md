@@ -1,6 +1,6 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: Index page
 ---
 
 <div class="image">

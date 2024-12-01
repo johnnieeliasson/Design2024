@@ -8,8 +8,14 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass mysasstheme/scss/style.scss mysasstheme/css/style.css --no-source-map",
-    "style-min": "sass mysasstheme/scss/style.scss mysasstheme/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass mysasstheme/scss/style.scss:mysasstheme/css/style.css mysasstheme/scss/style-dark.scss:mysasstheme/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass mysasstheme/scss/style.scss:mysasstheme/css/style.min.css mysasstheme/scss/style-dark.scss:mysasstheme/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass mysasstheme/scss/style-dark.scss mysasstheme/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass mysasstheme/scss/style-dark.scss mysasstheme/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass mysasstheme/scss/style.scss mysasstheme/css/style.css --no-source-map",
+    "style-light-min": "sass mysasstheme/scss/style.scss mysasstheme/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
