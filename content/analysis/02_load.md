@@ -47,9 +47,9 @@ Resultat
 </div>
 
 <br>
-1. Bornolmslinjen
+1. Bornholmslinjen
 <div class="image2">
-    <img src="../assets/img/bornholmslinjen.png" alt="Spotify">
+    <img src="../assets/img/bornholmslinjen.png" alt="Bornholmslinjen">
 </div>
 
 <br>
@@ -64,7 +64,7 @@ För mobilvy är det viktigt att minska storleken på bilderna.
 <br>
 2. Dagens Industri
 <div class="image2">
-    <img src="../assets/img/DI.png" alt="Netflix">
+    <img src="../assets/img/DI.png" alt="Dagens Industri">
 </div>
 
 <br>
@@ -77,7 +77,7 @@ Rekommendationer är att minska påverkan från tredjepartskod (annonser mestade
 <br>
 3. Elgiganten
 <div class="image2">
-    <img src="../assets/img/elgiganten.png" alt="Viaplay">
+    <img src="../assets/img/elgiganten.png" alt="Elgiganten">
 </div>
 
 <br>
