@@ -58,3 +58,14 @@
         cursor: pointer;
     }
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+} 

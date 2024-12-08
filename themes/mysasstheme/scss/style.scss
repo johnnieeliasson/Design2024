@@ -11,6 +11,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @use 'code' as *;
 @use 'technology' as *;
 @use 'mobile-nav' as *;
+@use 'gallery' as *;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 * {
@@ -51,7 +52,7 @@ ul {
 
     a {
         display: inline-block;
-        width: 110px;
+        width: 100px;
         padding: 5px 15px;
         color: $font-color;
         margin-left: 1em;
