@@ -204,5 +204,5 @@ Blandade bilder
 
 </div>
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/QLWkl5YpiD0?si=PQ8nK3XTqCXJwZX0" frameborder="0" allowfullscreen></iframe>
+    <iframe title="YouTube video player" src="https://www.youtube.com/embed/QLWkl5YpiD0?si=PQ8nK3XTqCXJwZX0" frameborder="0" allowfullscreen></iframe>
 </div>

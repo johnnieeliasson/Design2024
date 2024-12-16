@@ -18,7 +18,7 @@
             margin: 0;
             border-radius: 0;
             border: 1px solid #3787d2d6;
-            background-color: #68a2d7d6;
+            background-color: $box-color;
             color: #fcfcfc;
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s ease;
@@ -61,7 +61,7 @@
     color: #fcfcfc;
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    background-color: #68a2d7d6;
+    background-color: $box-color;
     transition: background-color 0.3s ease;
 }   
 .box.wide2 {
@@ -108,7 +108,7 @@
     margin: 0.5em;
     border-radius: 5px;
     border: 1px solid #3787d2d6;
-    background-color: #68a2d7d6;
+    background-color: $box-color;
     width: 100%;
     font-size: 1em;
     color: #fcfcfc;

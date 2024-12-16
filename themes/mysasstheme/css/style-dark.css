@@ -6480,7 +6480,7 @@ pre code {
     margin: 0;
     border-radius: 0;
     border: 1px solid rgba(55, 135, 210, 0.8392156863);
-    background-color: rgba(104, 162, 215, 0.8392156863);
+    background-color: rgba(66, 102, 137, 0.8392156863);
     color: #fcfcfc;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
@@ -6506,7 +6506,7 @@ pre code {
   margin-bottom: 1em;
   font-size: 2em;
   font-weight: bold;
-  color: rgba(20, 63, 104, 0.8392156863);
+  color: rgba(15, 46, 75, 0.8392156863);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -6522,7 +6522,7 @@ pre code {
   color: #fcfcfc;
   text-decoration: none;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  background-color: rgba(104, 162, 215, 0.8392156863);
+  background-color: rgba(66, 102, 137, 0.8392156863);
   transition: background-color 0.3s ease;
 }
 
@@ -6570,7 +6570,7 @@ pre code {
   margin: 0.5em;
   border-radius: 5px;
   border: 1px solid rgba(55, 135, 210, 0.8392156863);
-  background-color: rgba(104, 162, 215, 0.8392156863);
+  background-color: rgba(66, 102, 137, 0.8392156863);
   width: 100%;
   font-size: 1em;
   color: #fcfcfc;
@@ -6647,7 +6647,7 @@ iframe .table {
 
 .nav a,
 .nav-toggle {
-  color: rgba(20, 63, 104, 0.8392156863);
+  color: rgba(15, 46, 75, 0.8392156863);
   padding: 0.5em 0.5em;
 }
 
@@ -6704,7 +6704,7 @@ img, embed, object, video {
   margin-bottom: 1em;
   font-size: 2em;
   font-weight: bold;
-  color: rgba(20, 63, 104, 0.8392156863);
+  color: rgba(15, 46, 75, 0.8392156863);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -6953,23 +6953,23 @@ h2 {
   color: rgba(178, 206, 245, 0.8392156863);
 }
 
-.box {
+.landingpage .box {
   border: 1px solid rgba(178, 206, 245, 0.8392156863);
   color: rgba(178, 206, 245, 0.8392156863);
   text-decoration: none;
   padding: 1em;
   background-color: #131f2c;
 }
-.box a {
+.landingpage .box a {
   text-decoration: none;
   color: rgba(178, 206, 245, 0.8392156863);
 }
-.box .fab, .box .fas {
+.landingpage .box .fab, .landingpage .box .fas {
   color: rgba(178, 206, 245, 0.8392156863);
 }
 
 .box:hover {
-  background-color: #22384f;
+  /*background-color: $button-color;*/
   color: #0a0a0a;
   font-weight: bold;
   transform: scale(1.05);
@@ -7044,6 +7044,14 @@ img {
 
 .landingpage h1 {
   color: rgba(178, 206, 245, 0.8392156863);
+}
+
+.container a {
+  color: white;
+}
+
+.container code {
+  background-color: black;
 }
 
 @font-face {

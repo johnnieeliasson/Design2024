@@ -230,7 +230,7 @@ h2 {
     color: $font-color;
 }
 
-.box {
+.landingpage .box {
     border: 1px solid $font-color;
     color: $font-color;
     text-decoration: none;
@@ -246,8 +246,9 @@ h2 {
     }
 }
 
+
 .box:hover {
-    background-color: $button-color;
+    /*background-color: $button-color;*/
     color: #0a0a0a;
     font-weight: bold;
     transform: scale(1.05);
@@ -332,6 +333,14 @@ img {
         color: $font-color;
     }
 }
+
+.container a {
+    color: white;
+}
+.container code {
+    background-color: black;
+}
+
 
 @font-face {
   font-family: 'Font Awesome 5 Brands';
